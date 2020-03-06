@@ -175,9 +175,19 @@
 				
 			}
 		
-		.glow {
+@-webkit-keyframes .glow {
+  from {
+    text-shadow: 0 0 2px white, 0 0 10px white, 0 0 20px white, 0 0 40px white, 0 0 50px white, 0 0 60px white, 0 0 80px white, 0 0 100px white, 0 0 250px white, 0 0 500px white, 0 0 1000px white;
+  }
+  
+  to {
+    text-shadow: 0 0 2px white, 0 0 10px white, 0 0 20px white, 0 0 40px white, 0 0 50px white, 0 0 60px white, 0 0 80px white, 0 0 100px white, 0 0 250px white, 0 0 500px white, 0 0 1000px white;
+  }
+}
+			.nun {
   font-size: 70px;
   color: #white;
+  margin-top: 200px; 
   text-align: center;
   -webkit-animation: glow 1s ease-in-out infinite alternate;
   -moz-animation: glow 1s ease-in-out infinite alternate;
@@ -186,11 +196,11 @@
 
 @-webkit-keyframes glow {
   from {
-    text-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px white, 0 0 20px white, 0 0 25px white, 0 0 30px white, 0 0 35px white;
+    text-shadow: 0 0 2px yellow, 0 0 10px yellow, 0 0 20px yellow, 0 0 40px yellow, 0 0 50px white, 0 0 60px white, 0 0 80px white, 0 0 100px white, 0 0 250px white, 0 0 500px white, 0 0 1000px white;
   }
   
   to {
-    text-shadow: 0 0 10px white, 0 0 15px white, 0 0 20px white, 0 0 25px white, 0 0 30px white, 0 0 35px white, 0 0 40px yellow;
+    text-shadow: 0 0 2px white, 0 0 10px white, 0 0 20px white, 0 0 40px white, 0 0 50px white, 0 0 60px white, 0 0 80px white, 0 0 100px white, 0 0 250px white, 0 0 500px white, 0 0 1000px white;
   }
 }
 		.ok {
