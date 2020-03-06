@@ -1,0 +1,210 @@
+	h1 {
+		
+			font-size: 60pt;
+			
+			color: brown;
+			
+			position: center;
+			
+			text-align: center;
+			
+			margin-left: -200px;
+		
+		}
+	
+
+		h2 {
+
+			color: brown;
+
+			font-size: 75pt;
+
+			font-family: oblivionfont;
+			
+			position: center;
+
+		}
+
+		ol{
+			font-size: 20pt;
+			
+			color: white;
+		}
+
+
+		p {
+
+			font-size: 20pt;
+
+		}
+
+		div {
+		
+		margin-top: -70px;
+		
+		margin-bottom: 20px;
+		
+		margin-left: 100px;
+		
+		width: 1100px;
+		
+		background-color: ;
+		
+		padding: 20px;
+		
+		}
+
+		body {
+
+		color: #EBDFA4;
+
+		font-size: 30pt;
+
+		font-family: Oblivionfont;
+
+		background-color: #EBDFA4;
+		
+		background-image: url('https://i.imgur.com/pUaE4vM.png');
+		
+		background-size: 1425px;
+		
+		}
+
+		a:link {
+
+		color: white;
+		
+		size: 80pt;
+
+		}
+
+		p {
+		
+		color: #703D3A;
+		
+		position: center;
+		
+		text-align: center;
+		
+		margin-left: -200px;
+		
+		}
+		
+
+		a:visited {
+
+		color: black;
+
+		}
+
+		
+
+		a:hover {
+
+		color: #703D3A;
+
+		}
+
+		
+
+		a:active {
+
+		color: white;
+
+		}
+
+		img {
+		
+		margin-top: 200px;
+		
+		margin-left: 130px;
+		
+		float: middle;
+
+		
+		}
+		
+			li a {
+			
+				display: block;
+				
+				text-decoration: none;
+				
+				padding: 14px 16px;
+				
+				text-align: center;
+				
+				border-bottom: solid brown 6px;
+				
+				border-left: solid brown 6px;
+				
+				border-right: solid brown 6px;
+				
+				background-color: #7F6747;
+				
+				background-image: url('https://i.imgur.com/ChDDAkn.jpg)');
+				
+				color: white;
+				
+			}
+			
+			li a:hover {
+			
+				background-color: brown;
+				
+				color: #7F6747;
+				
+			}
+			
+
+			
+			li a:active {
+			
+			color: white;
+			
+			background-color: white;
+			
+			}
+			
+			.active {
+			
+			color: white;
+			
+			}
+		
+			.contact {
+			
+			color: white;
+			
+			}
+			
+			.nou {
+			
+			font-size: 50px;
+			
+			color: brown;
+			
+			}
+		
+		.glow {
+  font-size: 70px;
+  color: #white;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px white, 0 0 20px white, 0 0 25px white, 0 0 30px white, 0 0 35px white;
+  }
+  
+  to {
+    text-shadow: 0 0 10px white, 0 0 15px white, 0 0 20px white, 0 0 25px white, 0 0 30px white, 0 0 35px white, 0 0 40px yellow;
+  }
+}
+		
+	
+		
+		}
